@@ -56,7 +56,7 @@ const App = () => {
       const res = await fetch('https://kibana.ampath.or.ke/openmrs/ws/rest/v1/', { 
         method: 'post', 
         headers: new Headers({
-            'Authorization': 'Basic '+btoa('admin:Admin123'), 
+            'Authorization': 'Basic '+btoa('username:password'), 
             'Content-Type': 'application/x-www-form-urlencoded'
         }), 
         body: 'patient?q=mary&v=full'
