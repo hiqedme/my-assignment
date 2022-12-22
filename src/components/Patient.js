@@ -4,7 +4,7 @@ const Patient = ({patient, onDelete, onToggle}) => {
     <div className='patient'>
        
       <h3>{patient.name}</h3>
-      <p> Age:{patient.age}  Gender:{patient.gender}</p>
+      <p> Age:{patient.age} </p><p> Gender:{patient.gender}</p>
     </div>
   )
 }
