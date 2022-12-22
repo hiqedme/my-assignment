@@ -1,11 +1,11 @@
 import Patient from "./Patient"
 
-const Patients = ({patients, onDelete, onToggle }) => {
+const Patients = ({patients }) => {
    
     return (
         <>
             {patients.map((patient) => (
-                <Patient key={patient.id} patient={patient} onDelete={onDelete} onToggle={onToggle}/>))}
+                <Patient key={patient.id} patient={patient}/>))}
         </>
     )
 }

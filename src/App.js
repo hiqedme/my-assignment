@@ -64,8 +64,7 @@ function App() {
       {patients.length > 0 ? (
         <Patients
           patients={patients}
-          onDelete={deletePatients}
-          onToggle={toggleTreated}
+        
         />
       ) : (
         'No Patients To Show'
